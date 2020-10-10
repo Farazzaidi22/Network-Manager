@@ -245,6 +245,7 @@ GameObject:
   - component: {fileID: 65000014072933716}
   - component: {fileID: 8144946143956412076}
   - component: {fileID: 8160977444006417473}
+  - component: {fileID: 7090669580183403133}
   m_Layer: 0
   m_Name: CarPrefab
   m_TagString: Untagged
@@ -349,7 +350,7 @@ MonoBehaviour:
     i14: 0
     i15: 0
   m_ServerOnly: 0
-  m_LocalPlayerAuthority: 0
+  m_LocalPlayerAuthority: 1
 --- !u!114 &8160977444006417473
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -372,6 +373,18 @@ MonoBehaviour:
   m_SnapThreshold: 5
   m_InterpolateRotation: 1
   m_InterpolateMovement: 1
+--- !u!114 &7090669580183403133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000012662069940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c873965f7239ea34a969830f0327e366, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1000013231073728
 GameObject:
   m_ObjectHideFlags: 0
